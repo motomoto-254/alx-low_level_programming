@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*
- * main - The function prints the text using printf std function
- * Description: the printf function prints the word in double quotes
- * return: zero which is a requirement
+/**
+ * main - the function outputs text using printf
+ * Return: zero which is a requirement
  */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
