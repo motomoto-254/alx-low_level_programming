@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - the function generates a random int saved in variable n
  * the if checks if the int is positive, zero or negative
  * return: zero to satisfy the main variable type
  */
+
 int main(void)
 {
 	int n;
