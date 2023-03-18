@@ -2,7 +2,7 @@
 
 /**
  * main - print alphabets except for q and e
- * Result: zero to satisfy requirement
+ * Return: zero to satisfy requirement
  */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 		{
 			putchar(i);
 		}
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
