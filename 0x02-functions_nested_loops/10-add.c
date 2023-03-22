@@ -4,7 +4,7 @@
  * add - adds to variables
  * @x: first variable
  * @y: second variable
- * Return: sum 
+ * Return: sum
  */
 
 int add(int x, int y)
