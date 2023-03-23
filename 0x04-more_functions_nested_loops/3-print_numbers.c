@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - functions to print numbers from 0 to 10
- * 
  * Return: none/void
  */
 
