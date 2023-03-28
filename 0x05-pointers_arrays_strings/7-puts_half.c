@@ -8,20 +8,18 @@
  */
 void puts_half(char *str)
 {
-	int n, x;
+	int n;
 
 	n = 0;
-	x = 0;
 	while (*str != '\0')
 	{
 		n++;
 		str++;
 	}
-	x = n - 1;
-	if (x % 2 == 0)
+	if (n % 2 == 0)
 	{
-		str = str - (x / 2);
-		while (*str != '0')
+		str = str - (n / 2);
+		while (*str != '\0')
 		{
 			_putchar(*str);
 			str++;
@@ -29,8 +27,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		str = str - ((x - 1) / 2);
-		while (*str != '\0')
+		str = str - ((n -1) / 2);
 		{
 			_putchar(*str);
 			str++;
