@@ -4,19 +4,18 @@
  * @a: array of intgers
  * @n: number of elements to swap
  *
- * Return: viod
+ * Return: void
  */
 
 void reverse_array(int *a, int n)
 {
-	int i, x, y;
-	int temp[n];
+	int i, temp;
 
-	y = n - 1;
-	for (i = y, x = 0; i >= 0 && x <= y; i--, x++)
-		temp[x] = a[i];
-
-	for (i = 0; i <= y; i++)
-		a[i] = temp[i];
+	for (i = 0; i < n / 2; i++)
+	{
+		temp = a[i];
+		a[i] = a[n - i - 1];
+		a[n - i - 1] = temp;
+	}
 }
 
