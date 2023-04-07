@@ -2,8 +2,8 @@
 
 /**
  * print_chessboard - function that prints chess board
- * @(a)[8]: pointer to rows and columns
- * 
+ * @a: pointer to rows and columns
+ *
  * Return: void
  */
 void print_chessboard(char (*a)[8])
