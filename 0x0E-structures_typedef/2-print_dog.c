@@ -8,8 +8,10 @@
  *
  * Return:void
  */
-void print_dog (struct dog *d)
+void print_dog(struct dog *d)
 {
+	float i = -1.0;
+
 	if (d == NULL)
 		return;
 
@@ -17,7 +19,7 @@ void print_dog (struct dog *d)
 		printf("Name: %s\n", d->name);
 	else
 		printf("(nil)\n");
-	if ((d->age) != 0.0)
+	if ((d->age) != i)
 		printf("Age: %f\n", d->age);
 	else
 		printf("(nil)\n");
