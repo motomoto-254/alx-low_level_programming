@@ -3,14 +3,6 @@
 #include <stdio.h>
 
 /**
- * strcount - count number of char in string
- * @s: string pointer
- *
- * Return: int
- */
-int strcount(char *s);
-
-/**
  * new_dog - function creates a new dog
  * @name: attribute element
  * @age: attribute element
@@ -57,7 +49,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	return (dog_var);
 }
-
+/**
+ * strcount - count the number of char in string
+ * @s: string pointer
+ *
+ * return: int
+ */
 int strcount(char *s)
 {
 	int i;
